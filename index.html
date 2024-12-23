@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Rock-Paper-Scissor</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>ROCK-PAPER_SCISSOR</h1>
+        <table width="500" align="center">
+            <tr>
+                <td><button onclick="select('rock')"><img src="rock.png"></button></td>
+                <td><button onclick="select('paper')"><img src="paper.png"></button></td>
+                <td><button onclick="select('scissor')"><img src="scissors.png"></button></td>
+            </tr>
+        </table>
+<br><br>
+        <div id="scoreboard">
+            <table id="score" align="center" cellspacing="10px" width="500">
+                <tr>
+                    <td>USER</td>
+                    <td>COMP</td>
+                </tr>
+            </table>
+        </div>
+
+        <button onclick="finish()" id="end">End game!</button>
+        <script src="app.js"></script>
+    </body>
+</html>

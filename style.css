@@ -1,0 +1,45 @@
+body
+{
+    background-color: lavender;
+    text-align: center;
+}
+h1
+{
+    align-self: center;
+    font-family: STENCIL;
+}
+img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+button
+{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0px;
+}
+table
+{
+    align-items: center;
+    text-align: center;
+}
+
+#end
+{
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    display: block; /* Centers the button within a parent container */
+  }
+  
+  
